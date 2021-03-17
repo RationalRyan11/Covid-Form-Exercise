@@ -4,12 +4,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Covid Registration</title>
+
+
   </head>
   <body>
     <h1>Covid Registration </h1>
     <h2>Covid Registration Form</h2>
     <p>Please fill in this form to add your information to our table.</p>
-    <form <form action="/covid-registrations" method="post">
+
+    <form method="POST">
         <div>
             <label for="name">Name:</label>
             <input type="text" id="name" name="surname">
@@ -39,7 +42,28 @@
             <label for="location">Location where vaccine was received:</label>
             <input type="text" id="location" name="location">
         </div>
-    
+        
+        <div>
+            <button type="button" id="updateButton" onclick="addSentence();">Submit.</button>
+        </div>
     </form>
-  </body>
+
+    <div  id="div5">
+        This is the target space. 
+    </div>
+
+
+    <script>     
+        function addSentence() 
+        {
+            var para = document.createElement("p");
+            var nameValue = document.getElementById("name").value;
+            var node = document.createTextNode(nameValue);
+            para.appendChild(node);
+            var element = document.getElementById("div5");
+            element.appendChild(para);
+        }
+        
+    </script>
+
 </html>
