@@ -1,4 +1,4 @@
-# Covid Registrations
+# Covid Registrations Tracker
 
 This creates a form and records the answers given. Isn't that pretty. 
 
