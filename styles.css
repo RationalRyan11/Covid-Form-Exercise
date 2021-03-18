@@ -20,3 +20,47 @@ body {
 h2 {
     text-align: center;
 }
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed blue;
+  background-color: lightblue;
+}
+
+input[type=date] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed blue;
+  background-color: lightblue;
+}
+
+button {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed blue;
+  background-color: lightblue;
+
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px dashed blue;
+  background-color: lightblue;
+}
+
+image.injection {
+  position: relative;
+  bottom: 200;
+  right: 200;
+  border: 3px solid #73AD21;
+}
