@@ -11,8 +11,14 @@
 
 
   <body>
-    <img id="injection" src="./injection.jpg" height="200" width="150">
+      <div id="header">
+    <header>
+    <!--<img id="injection" src="./injection.jpg" height="200" width="150"> -->
+
     <h1>Covid Registration </h1>
+    </header>
+    </div>
+    <div id="block1">
     <h2>Covid Registration Form</h2>
     <p>Please fill in this form to add your information to our table.</p>
 
@@ -47,12 +53,13 @@
             <input type="text" id="location" name="location">
         </div>
         
-        <div>
+        <div id="target">
             <button type="button" id="updateButton" onclick="addRow();">Submit.</button>
         </div>
     </form>
-
-    <div>
+</div>
+<div id="tableblock">
+    <div >
         <h2>Registration Table</h2>
     </div>
     <div  id="div5">
@@ -67,6 +74,7 @@
 
 
         </table>
+    </div>
     </div>
 
 </html>
